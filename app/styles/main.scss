@@ -2,25 +2,78 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-// Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+body{
+	font-family: Helvetica;
+	font-size: 2em;
+	background-color: grey;
+	text-align: center;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+a{
+	@include button(pill);
+}
+img{
+	width: 100%;
+}
+p{
+	font-size: .5em;
+}
+#loginsignup{
+	@include outer-container;
+	color: white;
+	input{
+		color: black;
+		text-align: center;
+		border-radius: 20px;
+	}
+	button{
+		@include button(pill);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+.login-form{
+	@include span-columns(5);
+	@include shift(.5);
+	background-color: red;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+.signup-form{
+	background-color: red;
+	border-radius: 30px;
+	@include span-columns(5);
+	@include shift(.5);
+	margin-top: 20px;
+}
+.log-out{
+	position: absolute;
+		top: 10px;
+		right: 10px;
+		@include button(pill);
+}
+#a2-form{
+	width: 50%;
+	font-family: Helvetica;
+	height: 300px;
+	color: white;
+	background-color: blue;
+	border-radius: 50px;
+	input{
+		margin-top: 20px;
+		color: black;
+		margin-bottom: 20px;
+	}
+	button{
+		@include button(shiny);
+	}
+}
+#animation {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 30px;
+	border: solid black 2px;
+	margin-right: auto;
+	margin-left: auto;
 }
