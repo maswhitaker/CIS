@@ -1,0 +1,415 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>new class website</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+  <div class="container"></div>
+
+  <script type="text/template" id="login-template">
+  <section id="loginsignup">
+    <form class="login-form">
+        <h3>Log In</h3>
+        <div class="error" style="display:none"></div>
+        <h4>Please enter your username</h4>
+        <input type="text" id="login-username" placeholder="Username" />
+        <h4>Please enter your password</h4>
+        <input type="password" id="login-password" placeholder="Password" />
+        <button>Login</button>
+    </form>
+    <form class="signup-form">
+        <h3>Sign Up</h3>
+        <div class="error" style="display:none"></div>
+        <h4>Please enter a username</h4>
+        <input type="text" id="signup-username" placeholder="Username" />
+        <h4>Please enter a password</h4>
+        <input type="password" id="signup-password" placeholder="Password" />
+        <button>Register</button>
+    </form>
+  </section>
+  </script>
+
+  <script type="text/template" id="home">
+  <h1> CIS Website</h1>
+  <button class="log-out">Log Out</button>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+  </script>
+
+  <script type="text/template" id="contact">
+    <h1> CIS Website</h1>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+  </script>
+
+  <script type="text/template" id="assignments">
+    <h1> CIS Website</h1>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+    <section>
+    	<a href="#/assignments/a1">a1</a>
+    	<a href="#/assignments/a2">a2</a>
+    	<a href="#/assignments/a3">a3</a>
+    	<a href="#/assignments/a4">a4</a>
+    	<a href="#/assignments/a5">a5</a>
+    	<a href="#/assignments/a6">a6</a>
+    	<a href="#/assignments/a7">a7</a>
+    	<a href="#/assignments/a8">a8</a>
+    	<a href="#/assignments/a9">a9</a>
+     	<a href="#/assignments/a10">a10</a>
+    </section>
+  </script>
+
+  <script type="text/template" id="writeups">
+    <h1> CIS Website</h1>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+    <section>
+    	<a href="#/writeups/c1">c1</a>
+    	<a href="#/writeups/c2">c2</a>
+    	<a href="#/writeups/c3">c3</a>
+    	<a href="#/writeups/c4">c4</a>
+    	<a href="#/writeups/c5">c5</a>
+    	<a href="#/writeups/c6">c6</a>
+    	<a href="#/writeups/c7">c7</a>
+    	<a href="#/writeups/c8">c8</a>
+    	<a href="#/writeups/c9">c9</a>
+     	<a href="#/writeups/c10">c10</a>
+    </section>
+  </script>
+
+  <script type="text/template" id="a1">
+      <h1> CIS Website</h1>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+    <section>
+    	<a href="#/assignments/a1">a1</a>
+    	<a href="#/assignments/a2">a2</a>
+    	<a href="#/assignments/a3">a3</a>
+    	<a href="#/assignments/a4">a4</a>
+    	<a href="#/assignments/a5">a5</a>
+    	<a href="#/assignments/a6">a6</a>
+    	<a href="#/assignments/a7">a7</a>
+    	<a href="#/assignments/a8">a8</a>
+    	<a href="#/assignments/a9">a9</a>
+     	<a href="#/assignments/a10">a10</a>
+    </section>
+
+    <p>maswhitaker.github.io/cis-class-website</p>
+  </script>
+
+  <script type="text/template" id="c1">
+      <h1> CIS Website</h1>
+  <header>
+    	<nav>
+    		<a href="#">Home</a>
+    		<a href="#/assignments">Assignments</a>
+    		<a href="#/writeups">Write Ups</a>
+    		<a href="#/contact">Contact</a>
+    	</nav>
+    </header>
+    <section>
+    	<a href="#/writeups/c1">c1</a>
+    	<a href="#/writeups/c2">c2</a>
+    	<a href="#/writeups/c3">c3</a>
+    	<a href="#/writeups/c4">c4</a>
+    	<a href="#/writeups/c5">c5</a>
+    	<a href="#/writeups/c6">c6</a>
+    	<a href="#/writeups/c7">c7</a>
+    	<a href="#/writeups/c8">c8</a>
+    	<a href="#/writeups/c9">c9</a>
+     	<a href="#/writeups/c10">c10</a>
+    </section>
+
+    <h1>Chapter 1 Group Write Up and Presentation</h1>
+<h2>Sadie Adams, Conner Noone, Anton Ritchie, Mason Whitaker</h2>
+<h2>Summary</h2>
+<p>
+	United States manufacturing continues to rise, but is lacking when it comes to producing simple goods through low-cost labor.  Could robots be the answer when there are no longer any regions of the world that care to take on simple labor?
+	The advent of robotics alongside human labor has made manufacturing more efficient, cost effective and productive.  Robots are able to handle heavy materials while the human side of production takes care of the assembly.  These robots are found more commonly in the automotive industry, but the possibilities are limitless when considering the personalization robots can be made for companies based on price, size and need.
+	One company has designed a robot that will produce right beside its human counterpart.  Due to the cheaper cost of running a machine versus paying an employee wages and benefits, smaller manufacturing companies can purchase these robots and put them on the work floor at a reduced company cost.  Additionally, companies can have a robotic machine on the floor and producing within hours of taking it out of the box, cutting back the need for cost-draining trainings of new employees.  However, it must still be asked whether a company can succeed with a robotic workforce?
+	Some industries are eliminating the need for temporary work positions in manual labor with Baxter robots.  Baxter robots are able to be specifically developed to complete a wide range of tasks that cater to each manufacturers needs.  Given the information from the article, it is conceivable that as time progresses and costs of purchasing robots becomes cheaper, there is a possibility in the near future that many manufacturing jobs will be done by robots and the human element of production could dwindle to nothing.
+</p>
+<h2>1.</h2>
+<p>
+ Rethink Robotics claims that with the introduction of Baxter to small manufacturing that it will allow employees to move into higher paying positions either within the company or elsewhere.  The claims made may have some truth to them, however it is my belief that Baxter will most likely take away positions in small manufacturing businesses.   At $22,000, a company can introduce one Baxter robot to an assembly line and quickly return their investment back by simply releasing one labor worker; with a profited savings as a result.  According to a study conducted by salary.com, the average salary for an entry level, manufacturing engineer as of August 2014 is $60,929, while the lowest ten percent start at $52,373.  As stated by Rainer, Prince & Cegielski (2014), some companies are introducing Baxter on a trial basis and others are collaborating with Rethink Robotics on strategies to modify Baxter to better fit into their work zones.  Once a specialized Baxter has been produced and performs to specified expectations, a manufacturer could relieve a large number of its human workforce and still maintain an equal or greater amount of production.
+If a small manufacturing business is able to obtain two robotic workers at the cost of one human laborer, companies could double production with one human laborer supervising one Baxter while completing their job responsibilities as well, creating a two-for-one work force.  Furthermore, a company could eliminate the quantity of wages and benefits provided to a workforce of only human laborers, which in return would allow the company to retain more capital.  As the small company grows in production and capital, this scenario would likely continue to be replicated.
+Rainer, P. C. (2014). Introduction to Information Systems, Supporting and Transforming Business. Hoboken: John Wiley & Sons Inc.
+salary.com. (2014, August). Manufacturing Engineer I Salaries. Retrieved August 24, 2014
+</p>
+
+<h2>2.</h2>
+<p>
+  Union workers will always oppose t¬¬he implementation of robots. Merriam Webster defines a union as “an organization of workers formed to protect the rights and interests of its members.”  With this being known we can assume that the reaction of the labor unions to Baxter would be negative. The union workers could sabotage the Baxter robots in order to claim that they are ineffective. If workers were put in the position of losing their job/career, they would do just about anything to keep it. They will most likely riot and ¬¬¬¬¬get the media’s attention. Yet with this being said, Baxter is still the next generation of factory working robots. The age of static, single process, repetitious robots is over. There is almost nothing the labor unions can do to prevent the evolution of robots in the workplace. In Thomas Weekley’s article “Workers, Unions, and Industrial Robotics”, he discusses the labor union’s statements in 1982 at a Skilled Trades Conference. The unions were requesting that the contracts assured employment security, and that there would be advanced discussion with the employees before any implementation of new company equipment. This is how the unions reacted in 1982 to the automated robots; I believe that they would have a similar reaction to Baxter.
+</p>
+<p>
+Weekley, T. L. "Workers, Unions, and Industrial Robotics." The ANNALS of the American Academy of Political and Social Science 470.1 (1983): 146-51. Web.
+</p>
+<p>
+"Union." Merriam-Webster. Merriam-Webster, n.d. Web. 24 Aug. 2014.
+</p>
+
+
+<h2>3.</h2>
+<p>
+  So far I have learned that Baxter is an incredible robot that was created for the purpose of being affordable, and it doesn’t have to be segregated from human workers. This allows other workers to train the robot within the hour and move it to certain stations where different jobs are required. As I read through this article I did notice some applications I would add to Baxter to improve it, although the purpose of being affordable may be out of the question. There are three things I would add to Baxter that could improve its functions in a productive way. First I would install software so Baxter is already trained. This would be easier for any corporation so they wouldn’t have to take time to train the robot from scratch. Second, I would add mobility to the robot. I would allow the robot to move freely, considering it has sensors and it can see with its eyes, I would assume it could move without getting into any other workers way. Doing this would allow others to freely work without having to worry about moving the robot to a particular station. Finally, I would add voice-recognition software so that humans may interact with the robot and give it information on what to do. You could make it voice activate so only managers can give it instructions, therefore giving the robot a admin-rights functionality. Although giving it the ability to talk back may be a little extreme.  I believe this software would allow the robot to be active by itself. With the three applications I have listed to add to Baxter, I think it would greatly improve productivity and little contact with a robot. Baxter would be able to be an informed worker without being trained as you turn it on. You could then give it a voice-activated command and the robot would be able to move to where it was needed by itself and continue its work without additional guidance.
+</p>
+
+<h2>Discussion Questions:</h2>
+
+<p>- How else can Baxter be utilized in today’s expanding markets? </p>
+
+<p>- What other opportunities for growth could Rethink Robotics take advantage of?</p>
+
+<h2>PowerPoint</h2>
+<img src="images/powerpoint2.png">
+
+
+
+  </script>
+
+  <script type="text/template" id="c2">
+      <h1> CIS Website</h1>
+  <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#/assignments">Assignments</a>
+        <a href="#/writeups">Write Ups</a>
+        <a href="#/contact">Contact</a>
+      </nav>
+    </header>
+    <section>
+      <a href="#/writeups/c1">c1</a>
+      <a href="#/writeups/c2">c2</a>
+      <a href="#/writeups/c3">c3</a>
+      <a href="#/writeups/c4">c4</a>
+      <a href="#/writeups/c5">c5</a>
+      <a href="#/writeups/c6">c6</a>
+      <a href="#/writeups/c7">c7</a>
+      <a href="#/writeups/c8">c8</a>
+      <a href="#/writeups/c9">c9</a>
+       <a href="#/writeups/c10">c10</a>
+    </section>
+
+    <h1>Ch 2 Group Case Write Up</h1>
+    <h2>Mason Whitaker, Anton Ritchie, Sadie Adams, Connor Noone</h2>
+    <h2>Summary</h2>
+    <p>
+      This case started off with computer scientists’ desire to design and construct a computer-based information system, or CBIS, that possesses general problem-solving skills. From this desire, IBM’s Watson was created.
+      Watson is one of the first steps toward building a comprehensive CBIS. Watson was built to compete on the show Jeopardy! and had access to four terabytes of disk storage containing over two hundred million pages of content. Even though Watson had some minor difficulties on questions with short clues and only a few words, Watson easily outperformed the human opponents who had formerly won on the show. From the time of Watson’s Jeopardy! performance to March 2013, Watson’s capabilities had improved an astonishing two hundred and forty percent. IBM is now planning what they call a “Watson 2.0” which will be able to operate on smartphones and tablets.
+      Although Watson was developed specifically to compete on Jeopardy, IBM quickly began commercializing Watson. IBM turned to the medical field to further test out Watson’s capabilities and the results were impressive. IBM partnered with WellPoint, a company in the Blue Cross and Blue Shield association. Watson has since been able to increase efficiency within WellPoint and has been trained with thousands of test case scenarios and real-life cases. IBM made it clear that the objective was never to replace doctors with machines like Watson, but rather to help doctors make the most accurate decisions for their patients and limit medical errors by helping diagnose patients.
+      Watson has since been implemented into other businesses and fields. Specifically, Watson has been used in Memorial Sloan-Kettering and Memorial Sloan-Kettering Cancer Center, Cleveland Clinic, MCCM, Westmed, Rensselaer, and Citigroup. Watson helps diagnose patients by cross checking their symptoms, medical history, and hereditary history with both structured and unstructured medical information. At Rensselaer, Watson helps researchers and students, while at Citigroup, Watson will be used for telecommunications, financial services, and government needs.
+    <p>
+    <h2>1.</h2>
+    <p>
+      Watson would have a variety of uses in a university setting. Due to Watson’s expansive access to information of all kinds, he could be useful in a library, either to help students locate exactly where a book they need is or to act as more of a direct encyclopedia for students. Watson could also be very useful in the accounts department of a university. Watson could keep records of all kinds of students who have paid, who need to pay, which ones get financial aid, and which ones have already received financial aid for the year. Watson could make human err between financial issues nearly nonexistent. Watson could also be very useful in seeing which students have taken repeat courses and in keeping records of what classes specific students still need. Watson could even be used to scan all of the course descriptions for transfer students or study abroad students to see which courses will transfer from foreign institutions and which classes in particular they would transfer into. Watson could be used in almost any aspect of a university setting and could be very helpful.
+    </p>
+    <h2>2.</h2>
+    <p>
+      One of the potential disadvantages of having Watson in the healthcare setting tis the lack of interaction with a personal physician.  Watson would not be able to look at your swollen ankle and tell you that you need to rest on it due to a sprain.  His limitation of only having the book knowledge would play a hampering in healthcare.  People need to feel that human interaction when they are dealing with physical ailments, they need to feel any form of consoling they receive.  Having a computer diagnose your problems by asking the general questions does not offer or provide that sense of care, especially since the diagnosis would be from a machine.
+      Another disadvantage could be the possibility of misdiagnosis.  In the case of a swollen ankle, Watson could formulate a response based solely on the answers you provide.  Pain in your ankle could be a sprain of the joint, bruising of the bone, even a torn ligament, but without the human element, Watson will only be able to suggest what it was able to determine through its mass of readings.
+      The last disadvantage Watson would have is the patient themselves.  A patient can come in and answer the questions given, but not be fully truthful in their responses, which could lead to more damage of whatever ailment they have.  With a physician, the patient would or could give off signs showing they are in more pain than they admit to, or even lying about the symptoms they are having, possibly to receive a prescription medication to abuse.
+    </p>
+    <h2>3.</h2>
+    <p>
+      I would not consider having a diagnosis coming only from Watson due to the fact Watson can only see what is reported or told to him, not actually see what the issue is.  I feel Watson would be very beneficial in terms dealing with cases of terminal or potential terminal diagnosis where the computer can look through a person’s health records, current body scans, even lineage, but to have Watson in a normal clinical setting, which IBM is attempting to do with Watson 2.0, the program could still misdiagnose a client.  If a patient comes into a clinic and complains of a rash that itches, Watson 2.0 wouldn’t be able to diagnose the rash to a specific virus or bacteria due to the vagueness of the topic.  Currently, any person can conduct a general search of symptoms on a website like WebMd and self-diagnose.  However, a doctor or nurse would physically be able to see the infected area and could immediately determine what the case might be.
+      Watson has and will continue to help physicians when it comes to determining a specific illness or what a patient’s joint pains could be from, but I do not believe Watson has the credentials to clinically diagnose a patient by itself at this time.  With more research and testing done with Watson though, there is always the possibility we will see Watson in hometown clinics the near future. I also believe that this applies to class in the topic of business process. Watson would have to be integrated into the diagnosing process instead of the having a physician diagnose.
+    </p>
+    <h2>4.</h2>
+    <p>
+      Would you consider being diagnosed by your personal physician, if he or she consulted Watson? Why or why not?
+    </p>
+    <p>
+      If my physician consulted Watson I would still be okay with him diagnosing me. This is because I believe that Watson carries an unlimited amount of information, which a normal physician would not have access to. A normal physician can not search through millions on millions of databases filled with information, but a physician who can use Watson’s information and transform it into knowledge for diagnoses. I think that this enables the physician to make the most educated decision for the diagnoses. They will be less likely to be wrong if they consult Watson, therefore I think that every physician should have access to IBM’s Watson.
+    </p>
+    <h2>Powerpoint</h2>
+    <img src="images/powerpointt.png">
+  </script>
+
+  <script type="text/template" id="c3">
+  <h1> CIS Website</h1>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#/assignments">Assignments</a>
+        <a href="#/writeups">Write Ups</a>
+        <a href="#/contact">Contact</a>
+      </nav>
+    </header>
+    <section>
+      <a href="#/writeups/c1">c1</a>
+      <a href="#/writeups/c2">c2</a>
+      <a href="#/writeups/c3">c3</a>
+      <a href="#/writeups/c4">c4</a>
+      <a href="#/writeups/c5">c5</a>
+      <a href="#/writeups/c6">c6</a>
+      <a href="#/writeups/c7">c7</a>
+      <a href="#/writeups/c8">c8</a>
+      <a href="#/writeups/c9">c9</a>
+       <a href="#/writeups/c10">c10</a>
+    </section>
+    <p>
+    <h1>Chapter 3 Case Write-Up:</h1>
+    <h2>Mason Whitaker, Sadie Adams, Connor Noone, Anton Ritchie</h2>
+    <h3>Summary</h3>
+    <p>
+      This case write-up starts off by talking about how we all, as customers, provide numerous details about ourselves and our buying habits to retailers. Retailers are then able to use these details to form something of a buyer-profile for each of us so that they are better able to provide us with incentives to purchase more of their products.
+      Although, retailers have also discovered that once buyers form shopping habits, it is incredibly difficult to break them. The most likely time people change their buying habits is with the birth of a child. Parents are overworked and stressed and are more likely to branch out from their routines.
+      With this, Target has worked out a system to start sending coupons to expectant mothers in their second trimester, before other companies who send out coupons when the baby is born and that knowledge goes into public record. Target logs an expansive amount of personal data and stores it in a personalized Guest ID. Target also stores demographic information and can even buy additional data from outside sources. Using all of this information, Target has assembled about twenty-five products that can help predict the stages of women’s pregnancy, allowing them to send out their coupons before competitors.
+      Unfortunately, Target experienced something of a backlash when an angry father came into a local store, demanding to know if Target was trying to encourage his high school daughter to get pregnant with the coupons. As it turns out, his daughter was indeed pregnant, and the father called a few days later to apologize after he learned of his daughter’s pregnancy. Target responded to this encounter by mixing up the coupons sent to include items they feel pregnant women would never buy, hoping that the women will be more likely to use them if they feel that they have not been spied on.
+    </p>
+    <h2>Question 1</h2>
+    <p>
+      Target legally collects data and analysis in my opinion.  Any time a person shops in there, Target codes their purchase to a number representing your person.  As you shop the stores more often, they collect everything that has been purchased and they use that information to send you coupons and advertisements specifying to your likes and needs.  The company knows that the Target shopper is going to shop at other retailers, so they do what they can to obtain any information dealing towards you.  In a society where everything is now being digitized, a consumer should expect to have their shopping records legally shared.
+    </p>
+    <h2>Question 2</h2>
+    <p>
+      Ethically, the way Target collects their data is wrong.  Is it right for a company to track you are buying diapers more commonly, therefore they advertise baby products in a specific flyer just to you?  I find that morally wrong.  Anyone can buy diapers or baby products, but what if that person is infertile?  What if a gentleman is having an affair (which is totally immoral) and buys lingerie for is mistress, yet receives the latest catalog to his residence displaying female apparel which his wife intercepts?  Hypothetically, Target in those two instances is touching onto sensitive topics, without knowing so, just to make a dollar.  Companies like Target shouldn’t advertise only one section of their store to a customer because of the customers purchase.
+    </p>
+
+    <h2>Question 3</h2>
+    <p>
+    	I learned something new about target that I did not know before I had read this article. That is, the way they go about finding information about their customers, and how they go about getting customers to shop at their store. When you go to target for the first time, you get a target card, which gives you a Guest ID number. Every time you go to target and purchase something, it is then stored under your account or identification number. Target can then link demographic information to your Guest ID number which is very personal information. It includes your age, your marital status, where you live, your estimated salary, which credit cards you carry, and what websites you have visited. Further, target can buy data about your ethnicity, job history, magazines your read and purchase from, the year you bought or lost your house, where you went to college, your political leanings, charitable giving, and the number and types of cars you own. Knowing this target is able to send you coupons, magazines, and other forms of advertisements, based on who you are and what you purchase regularly. For example in the article it talks about reaching out to customers before their competitors do when it becomes time for a birth of a child. Target analysts discovered about 25 products that, when analyzed together, allowed the retailer to assign a “pregnancy prediction” score to each female customer. With this Target can estimate a women’s due date within a small window, which enables them to send coupons for products that a women needs in very specific stages of her pregnancy. Targets approach is interesting and I think it is providing them with the most benefit possible, but there not necessarily thinking of the down sides towards others and their customers. Target is keeping information given to them by customers through there Guest ID, which doesn’t allow anyone that isn’t working with target able to see their information. Although, they are sending coupons based on predictions they have made, which may be wrong and could offend others.
+    	I think target is taking two of the four approaches through the ethical frameworks approaches. I believe that they are using the utilitarian approach and the common good approach for different reasons. Although a part of this framework isn’t correct, I believe there using the utilitarian approach because of the action that causes the most good for the company of target. Being able to have a Guest ID and all the information that comes along with it, Target is able to send coupons and advertising through magazines to customers. Although it does cost money to advertise and send coupons it isn’t very much, causing the likely hood of the outcome to be beneficial. In this case they think the more they know about you, the more they can advertise to you about the things that you made need in your life, causing them to have a profit. Although this approach does have a down side and a part of that is causing the least harm to their customers through targets actions. Like I said before about the analysts, it is a prediction and they may send some advertising to people who have no need for it. This happens to a large group of people, and sometimes people may be offended which is why I said there was only one part to the utilitarian approach.
+    </p>
+    <h2>Question 4</h2>
+    <p>
+      After I read this article I completely agree that target is invading everyone’s privacy. Although it is kept in a system where only certain target employees can see it, it is still information that target employees shouldn’t know. I believe some of the information is ok, like the demographic information they have listed. This includes your age, whether you are married or have children, where you live and how long it takes you to drive to the store, your estimated salary, whether you have moved recently, credit cards you carry, and other websites you visit. I believe this information is ok to know. Knowing this Target can send you coupons and advertisements because they know where you live. They can send you certain advertisements based on whether you are a man or a woman, but if you’re married and have a family they can send you a different set of advertisements.
+      Although further through the article is says that Target can buy data about your personal information. I believe that this process is an invasion of privacy that needs to be stopped. This information includes data about your ethnicity, job history, magazines your read and purchase from, the year you bought or lost your house, where you went to college, your political leanings, charitable giving, and the number and types of cars you own. Knowing this target is able to send you coupons, magazines, and other forms of advertisements, based on who you are and what you purchase regularly. I don’t believe this information is necessary although target does based on the fact that they can make predictions of what products you may need.  I don’t feel like this is right at all and that target should find another way of doing this.
+      Target sends coupons for only certain products that they have and I believe that is why they want this personal information. They want to be able to single certain products out so they can show only send you the coupons for what you need. I believe this is a good strategy, but they are basing it off predictions. I can understand that these predictions are probably right 80 percent of the time, but sometimes they aren’t. This can end up really offending and hurting someone else feelings. I believe the solution to this is fitting every item that they have in one magazine, and then every coupon they give out in the other. If you can send both advertisements to your customers through the mail, they will be able to look through at the items Target has and pick out a coupon for themselves. This way they don’t need unnecessary information that is private to some customers.
+    </p>
+    <h2>Discussion Questions:</h2>
+    <p>-	Do you agree that Target complies with privacy policies concerning how much information the store on an individual?</p>
+    <p>-	How do you feel knowing that a corporation has all this information regarding you?</p>
+    </p>
+    <h2>Powerpoint</h2>
+    <img src="images/powerpoint3.png">
+  </script>
+
+    <script type="text/template" id="a2">
+      <h1> CIS Website</h1>
+  <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#/assignments">Assignments</a>
+            <a href="#/writeups">Write Ups</a>
+            <a href="#/contact">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <a href="#/assignments/a1">a1</a>
+        <a href="#/assignments/a2">a2</a>
+        <a href="#/assignments/a3">a3</a>
+        <a href="#/assignments/a4">a4</a>
+        <a href="#/assignments/a5">a5</a>
+        <a href="#/assignments/a6">a6</a>
+        <a href="#/assignments/a7">a7</a>
+        <a href="#/assignments/a8">a8</a>
+        <a href="#/assignments/a9">a9</a>
+        <a href="#/assignments/a10">a10</a>
+    </section>
+
+    <h1>5 Functional Applications</h1>
+    <ul>
+      <li><h2>Image</h2></li>
+      <img src="images/henderson.jpg" style="height: 200px; width: 200px;">
+      <li><h2>Sign-In and Log-In</h2></li>
+      <li>
+        <h2>Animation</h2>
+        <div id="animation">
+          <p>CLICK ME</p>
+        </div>
+      </li>
+      <li>
+        <h2>Form</h2>
+        <form id="a2-form">
+          <label>Name</label>
+          <input type="text" placeholder="enter your name">
+          <label>Email</label>
+          <input type="text" placeholder="enter your email">
+          <button>Submit</button>
+        </form>
+      </li>
+      <li>
+        <h2>Comments</h2>
+        <h3>Leave a comment</h3>
+        <input type="text" placeholder="enter a comment" id="comment">
+        <button id="submit">Submit</button>
+        <div id="comment-box">
+        </div>
+      </li>
+    </ul>
+  </script>
+  <script type="text/template" id="a3">
+    <h1> CIS Website</h1>
+<header>
+      <nav>
+          <a href="#">Home</a>
+          <a href="#/assignments">Assignments</a>
+          <a href="#/writeups">Write Ups</a>
+          <a href="#/contact">Contact</a>
+      </nav>
+  </header>
+  <section>
+      <a href="#/assignments/a1">a1</a>
+      <a href="#/assignments/a2">a2</a>
+      <a href="#/assignments/a3">a3</a>
+      <a href="#/assignments/a4">a4</a>
+      <a href="#/assignments/a5">a5</a>
+      <a href="#/assignments/a6">a6</a>
+      <a href="#/assignments/a7">a7</a>
+      <a href="#/assignments/a8">a8</a>
+      <a href="#/assignments/a9">a9</a>
+      <a href="#/assignments/a10">a10</a>
+  </section>
+  <img src="images/old-resume.png">
+  <img src="images/new-resume.png">
+</script>
+
+    <script src="scripts/vendor.js"></script>
+
+    <script src="//www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+        <script src="scripts/main.js"></script>
+      </body>
+</html>
